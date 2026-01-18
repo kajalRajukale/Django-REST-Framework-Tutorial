@@ -3,6 +3,8 @@
 From [Quickstart](https://www.django-rest-framework.org/tutorial/quickstart/)
 
 
+### Setup Basic Django Project
+
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate 
