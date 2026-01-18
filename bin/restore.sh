@@ -1,5 +1,7 @@
 #!/bin/bash
 
+cd ..
+
 echo "==> Removing all data from the database..."
 python manage.py flush --noinput
 

@@ -128,9 +128,10 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 # Django REST Framework
 REST_FRAMEWORK = {
     'PAGE_SIZE': 10,
-    'DEFAULT_PAGINATION_CLASS':
-    'rest_framework.pagination.PageNumberPagination',
+    'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
+    "DEFAULT_SCHEMA_CLASS": "rest_framework.schemas.openapi.AutoSchema",
 }
+
 
 if ENVIRONMENT == 'production':
     DEBUG = False
