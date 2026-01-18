@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% block content %}
+<h1>Preview Snippet: {{ snippet.title }}</h1>
+<p><strong>Owner:</strong> {{ snippet.owner }}</p>
+<p><strong>Language:</strong> {{ snippet.language }}</p>
+<p><strong>Created:</strong> {{ snippet.created }}</p>
+<div>
+    {{ snippet.highlighted|safe }}
+</div>
+<a href="{% url 'snippets:dashboard' %}">Back to Dashboard</a>
+{% endblock %}
