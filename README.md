@@ -1,8 +1,8 @@
-django-admin startapp quickstart
----
 # Django REST Framework Tutorial
 
 > [Official Tutorial Link](https://www.django-rest-framework.org/tutorial/quickstart/)
+
+Code is on [GitHub](https://github.com/encode/rest-framework-tutorial)
 
 This guide walks you through creating a simple API to allow admin users to view and edit users and groups in the system.
 
